@@ -2,3 +2,8 @@
 
 -- Clone Projects
     -> git clone git@github.com:onlyfatih/Turkcell.git
+
+-- Push commit
+    -> git add . (Pushlanacak dosyaları commit için seçtik - "." demek o klasördeki tüm değişikleri alır)
+    -> git commit -m "commit message" (commit mesajımızı yazdık)
+    -> git push (o an hangi branch seçili ise o branche push atar)
