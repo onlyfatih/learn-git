@@ -1,0 +1,15 @@
+-- Local bracnhi yayınlama
+    -> git push --set-upstream origin adapter-test
+
+-- İkinci brachi oluşturma
+    -> git checkout main
+    -> git checkout -b class-test
+
+-- İlk branch'i main branche yollama
+    -> git checkout main
+    -> git merge adapter-test
+
+-- İkinci brach'e "adapter-test" branch'inden atılan değişikliklkeri alma
+    -> git pull ile main branchi güncelle (main branchte olmak gerek bunun için değilse git checkout main)
+    -> git checkout class-test
+    -> git merge main (main class'Indaki güncel hali, mevcut class-test branch'ine de al.)
