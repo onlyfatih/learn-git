@@ -1,0 +1,4 @@
+## Buraya git komutları gelecek 
+
+-- Clone Projects
+    -> git clone git@github.com:onlyfatih/Turkcell.git
